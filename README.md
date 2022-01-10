@@ -117,6 +117,7 @@ C:\Users\yousaf\youtube-video-downloader-pyscript>dir Downloads
 C:\Users\yousa\youtube-video-downloader-pyscript>
 ```
 _visual output_
+
 ![](Downloads/output.gif)
 
 ----
