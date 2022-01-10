@@ -19,7 +19,8 @@ This is a simple python script and it's used for mp4 type video downloading from
 #### How to Install Python (for windows)
 - [Installation Guide for python](https://www.python.org/downloads/)
 - [Installation Guide for GitBash terminal](https://git-scm.com/downloads) 
-`_once you have installed git bash then please use your windows command prompt with limited linux commands_`
+
+`once you have installed git bash then please use your windows command prompt with limited linux commands`
 
 
 #### Pre-Requests (for RedHat-based-Linux)
