@@ -55,7 +55,7 @@ pkg install pip
 ## How to Get
 ```
 git clone https://github.com/yousafkhamza/youtube-video-downloader-pyscript.git
-cd https://github.com/yousafkhamza/youtube-video-downloader-pyscript.git
+cd youtube-video-downloader-pyscript
 pip3 install -r requirements.txt
 ```
 
