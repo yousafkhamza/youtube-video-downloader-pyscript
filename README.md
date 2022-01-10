@@ -85,7 +85,7 @@ Installing collected packages: pytube
 Successfully installed pytube-11.0.2
 
 C:\Users\yousaf\youtube-video-downloader-pyscript>python3 youtube_downloader.py
-Youtube URL: https://youtu.be/gJB3l7uc4RA
+Youtube URL: https://youtu.be/gJB3l7uc4RA                            <------------------- URL pasted here.
 
 Fetching "Thathaka Theithare Video Song | Hridayam | Pranav | Vineeth | Prithviraj | Hesham |Visakh |Merryland"..
 Information:
@@ -95,7 +95,7 @@ Views: 1,312,619
 
 Available Formats:
 ['360p', '720p']
-Choose one format would you like to download (eg:360p): 720p
+Choose one format would you like to download (eg:360p): 720p        <------------------- Choose any resolution when available here.
 
 Information about the video format you had selected:
 File size: 13.6 MB
