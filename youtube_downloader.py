@@ -56,7 +56,7 @@ def main():
             yt.register_on_progress_callback(on_progress)
             yt.streams.filter(res=format_res, file_extension = "mp4").first().download("./downloads")
             print("Download Successful")
-            print("Please go and watch same under '{}/Downloads'....".format(current_path))
+            print("Please go and watch the same under '{}/Downloads'....".format(current_path))
         else:
             print("Choose a valid format from the available list mentioned above")
     else:
