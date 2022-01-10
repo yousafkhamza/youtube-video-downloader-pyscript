@@ -58,7 +58,7 @@ def main():
             print("Download Successful")
             print("Please go and watch same under '{}/Downloads'....".format(current_path))
         else:
-            print("Choose a valid format from available list mentioned above")
+            print("Choose a valid format from the available list mentioned above")
     else:
         format_res=format_res+"p"
         if format_res in A:
@@ -72,10 +72,10 @@ def main():
             print("Download Successful")
             print("Please go and watch the same under '{}/Downloads'....".format(current_path))
         else:
-            print("Choose a valid format from available list mentioned above")
+            print("Choose a valid format from the available list mentioned above")
             
 if video_url.startswith("http"):
     yt=YouTube(video_url)
     main()
 else:
-    print("Please enter a vaild URL.")
+    print("Please enter a valid URL.")
