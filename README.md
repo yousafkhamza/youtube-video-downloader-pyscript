@@ -116,9 +116,10 @@ C:\Users\yousaf\youtube-video-downloader-pyscript>dir Downloads
 
 C:\Users\yousa\youtube-video-downloader-pyscript>
 ```
-_visual output_
+_ScreenShots_
 
-![](Downloads/output.gif)
+![alt_txt](https://i.ibb.co/yfSH8j4/Screenshot-1.png)
+![alt_txt](https://i.ibb.co/8D0B9YS/Screenshot-2.png)
 
 ----
 ## Behind the code
