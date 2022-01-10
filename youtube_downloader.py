@@ -28,7 +28,7 @@ def main():
 
     print("\nAvailable Formats: ")
     A=[]
-    res=yt.streams.filter(progressive=True).filter(file_extension = "mp4")
+    res=yt.streams.filter(progressive=True, file_extension='mp4')
     if res.filter(resolution="360p"):
         A.append("360p")
 
@@ -48,13 +48,13 @@ def main():
     format_res = input("Chosse one format would you like to download (eg:360p): ")
     if format_res.endswith("p"):
         if format_res in A:
-            video = yt.streams.filter(res=format_res).filter(file_extension = "mp4").first()
+            video = yt.streams.filter(res=format_res, file_extension = "mp4").first()
             print(f"\nInformation about the video format you had selected: \n"
                   f"File size: {round(video.filesize * 0.000001, 2)} MB\n"
                   f"Selected Resolution: {video.resolution}\n")
             print("Downloading....")
-            yt.register_on_progress_callback(on_progress) + {}
-            yt.streams.filter(res=format_res).filter(file_extension = "mp4").first().download("./downloads")
+            yt.register_on_progress_callback(on_progress)
+            yt.streams.filter(res=format_res, file_extension = "mp4").first().download("./downloads")
             print("Download Successful")
             print("Please go and watch same under '{}/Downloads'....".format(current_path))
         else:
@@ -62,13 +62,13 @@ def main():
     else:
         format_res=format_res+"p"
         if format_res in A:
-            video = yt.streams.filter(res=format_res).filter(file_extension = "mp4").first()
+            video = yt.streams.filter(res=format_res, file_extension = 'mp4').first()
             print(f"\nInformation of the current video format: \n"
                   f"File size: {round(video.filesize * 0.000001, 2)} MB\n"
                   f"Selected Resolution: {video.resolution}\n")
             print("Downloading....")
             yt.register_on_progress_callback(on_progress)
-            yt.streams.filter(res=format_res).filter(file_extension = "mp4").first().download("./downloads")
+            yt.streams.filter(res=format_res, file_extension = 'mp4').first().download("./downloads")
             print("Download Successful")
             print("Please go and watch the same under '{}/Downloads'....".format(current_path))
         else:
